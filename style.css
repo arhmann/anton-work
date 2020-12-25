@@ -1,0 +1,60 @@
+html,
+body {
+    font-family: Arial;
+    font-size: 18px;
+    margin: 0;
+    padding: 0;
+}
+
+ :active,
+ :hover,
+ :focus {
+    outline: 0;
+    outline-offset: 0;
+}
+
+li {
+    list-style: none;
+}
+
+button {
+    border: none;
+    font: inherit;
+    color: inherit;
+}
+
+.row {
+    display: flex;
+}
+
+.main {
+    position: relative;
+}
+
+@media (max-width: 815px) {
+    body {
+        background: #f0f0f0;
+    }
+    .container {
+        max-width: 350px;
+        margin: 0 auto;
+    }
+    .header__content-top {
+        justify-content: space-between;
+        align-items: center;
+    }
+    .navbar {
+        display: none;
+    }
+    .btn-cl-op {
+        font-size: 30px;
+    }
+    img {
+        width: 25px;
+        margin: 8px 0 0;
+    }
+    .footer {
+        position: absolute;
+        bottom: 0;
+    }
+}
