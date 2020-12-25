@@ -33,11 +33,11 @@ button {
 
 @media (max-width: 815px) {
     body {
-        background: #f0f0f0;
         font-size: 15px;
     }
     .header {
-        padding-top: 10px;
+        padding: 10px 0 1px;
+        background: #f0f0f0;
     }
     .container {
         max-width: 350px;
@@ -58,10 +58,50 @@ button {
         width: 25px;
         margin: 8px 0 0;
     }
+    .header__categories {
+        font-size: 11px;
+        justify-content: space-between;
+        margin: 30px auto;
+        padding: 0;
+    }
     .footer {
+        background-color: #ffffff;
         position: absolute;
         bottom: 0;
         left: 0;
         right: 0;
+        height: 100px;
+    }
+    .footer__nav {
+        align-items: center;
+        position: relative;
+    }
+    .footer__entry {
+        position: absolute;
+        padding: 0;
+        background-color: #f26b3a;
+        border-radius: 50%;
+        height: 100px;
+        left: 0;
+        right: 0;
+        display: flex;
+        margin: 0 auto;
+        width: 100px;
+        color: white;
+        align-items: center;
+        justify-content: center;
+        font-size: 68px;
+    }
+    .hand-write,
+    .cloud-bank,
+    .money-counter,
+    .send-exel {
+        background: transparent;
+        width: 63px;
+        padding: 0;
+        font-size: 13px;
+    }
+    .btn__wrapper-left {
+        margin-right: auto;
     }
 }
